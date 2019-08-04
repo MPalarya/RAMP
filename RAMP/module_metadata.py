@@ -43,7 +43,7 @@ def create_default_metadata(module_path):
         "module_name" : MODULE_NAME,
         "module_file": os.path.basename(module_path),
         "os": OS,
-        "os_list": OS_LIST,
+#        "os_list": OS_LIST,
         "architecture": ARCHITECTURE,
         "version": MODULE_VERSION,
         "semantic_version": MODULE_SEMANTIC_VERSION,
